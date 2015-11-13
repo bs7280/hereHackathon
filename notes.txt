@@ -1,0 +1,53 @@
+Notes and todo list:
+----------------------------------
+
+Here api:
+
+
+
+
+
+Todo: 12:45pm:
+-bill and david: clone the clojure server
+-ben and cosmin: explore api
+    -what calls do we need to figure out:
+    -cosmins idea (road trip):
+        information: landmarks on the way
+            -location
+            -description? image? rating? category?
+            -resturants: a lot of data, will need to filter it
+    -other idea (find food):
+        -Information needed:
+            -users current location
+            -get a map of a location
+                -get a map of a location with custom icons
+            -get information about local resturants
+                -hours of operation
+                -location
+                -type of food
+                -a menu ideally
+                    -basically information that allows filtering of food and menu options
+                    -type of food? (mexican, italian, etc...)
+                    -if a resturant has certain types of food or not
+                        -like pizza, ice cream, etc...
+
+2:54pm:
+-bill and david 
+    algorithm
+-ben and cosmin:
+    get api interface working
+
+overall todo list
+-investigate here api
+    -Make a functioning api call
+    -see if we can do what we want it to do:
+        -see how much point of interest data is available
+        -see what information here does not have that other apis do have (that we care about)
+        -figure out how to integrate them
+-git repository
+-actually code the api
+    -code the part that interfaces with here api
+    -code the part that interfaces with other apis
+    -structure and organize it will enough to be actually used internaly
+    -backend server
+    -front end server side
